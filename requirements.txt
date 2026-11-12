@@ -1,0 +1,8 @@
+# BdSL web demo — Streamlit Cloud install list.
+# CPU-only torch keeps the cloud build small (no GPU needed for inference).
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit
+torch
+mediapipe==0.10.35
+opencv-python-headless
+numpy
